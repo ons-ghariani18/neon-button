@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+     background-color:#000 ;
+}
+.container {
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+ 
+  }
+  /*le style du bouton yji kbal l effet */
+  .Button {
+  position: relative;
+  text-align: center;
+  width:250px;
+  padding:40px;
+  font-size: 35px;
+  color:#15f4ee;
+  font-family:poopins;
+  font-weight:400;
+  border:5px solid #15f4ee;
+  text-transform:uppercase;
+  letter-spacing: 15px;
+  cursor:pointer;
+  border-radius: 100px;
+  transition:0.5s;
+
+
+
+  }
+  .Button:hover{
+    box-shadow: 0 5px 50px 0 #154 inset, 0 5px 50px 0 #154 ,
+    0 5px 50px 0 #154 inset, 0 5px 50px 0 #154;
+
+
+  }
+
+
+
+
+
+
